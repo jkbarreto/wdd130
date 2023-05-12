@@ -1,0 +1,62 @@
+body{
+    background-color: #FCA6C9;
+}
+h1{
+    font-size: 2.5em;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+p{
+    width: 30%;
+    text-align: center;
+    color: white;
+    margin: 30px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#author{
+
+    text-align: center;
+    color: white;
+    margin: 30px auto;
+    font-weight: bold; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+img {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+}
+h2{
+    text-align: center;
+    width: 20%;
+    margin: 30px auto;
+    color: white;
+    line-height: 60px;
+    font-size: 2.5em;
+}
+footer p{
+    text-align: center;
+    margin: 0px auto;
+    color: black;
+    font-size: 16px;
+    width: 20%;
+}
+footer{
+    margin: 40px auto;
+}
+h1:hover{
+    background-color: #FCA6C9;
+    color: black;
+}
+main p{
+    color: black;
+    margin: 16px auto;
+    text-align: left;
+    font-weight: bold;
+    width: 40%;
+}
+main img{
+    margin: 30px auto;
+}
