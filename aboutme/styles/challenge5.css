@@ -1,0 +1,36 @@
+#background{
+    height: 100%;
+    width: 100%;
+    min-width: 150%;
+    background-color: #707079;
+    
+}
+img{
+    display: inline-block;
+    
+}
+.desk{
+    width: 16%;
+    border-radius: 50%;
+    border: 15px solid #4d4d55;
+    
+}
+.grafic{
+    width: 16%;
+    border-radius: 50%;
+    border: 15px solid #4d4d55;
+    display: inline;
+    margin-top: center;
+    margin-left: center;
+}    
+.person{
+    width: 16%;
+    border-radius: 50%;
+    border: 15px solid #4d4d55;
+    margin: 0px auto;
+    display: inline;
+}
+.top{
+    width: 100%;
+    
+}
