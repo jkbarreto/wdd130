@@ -1,4 +1,9 @@
-nav {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    nav {
     background-color: steelblue;
     padding: 10px;
 }
@@ -23,21 +28,35 @@ p {
 main {
     max-width: 840px;
 }
+main img {
+    /* profile image */
+    float: right;
+}
 aside {
-    width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2); /* 1 */
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
+    width: 20em;
     text-align: center;
 }
 aside img {
     width: 200px;
     height: auto;
 }
+aside h2 {
+    position: relative;
+    top: 35px;
+    left: 130px;
+}
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/* Class Selectors */
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
 }
