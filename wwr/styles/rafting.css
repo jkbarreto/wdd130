@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rock+Salt&display=swap');
+
+:root {
+    --primary-color: #FBFDFD;
+    --secondary-color: #35BFC4;
+    --accent1-color: #D16200;
+    --accent2-color: #3A3017;
+
+    --heading-font: 'Rock Salt', serif;
+    --paragraph-font: 'Roboto', serif;
+
+    --headline-color-on-white: #3A3017;  /* headlines on a white background */ 
+    --headline-color-on-color: #FBFDFD; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #3A3017; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: #FBFDFD; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #3A3017  ;
+    --nav-link-color: #FBFDFD;
+    --nav-background-color: #D16200;
+    --nav-hover-link-color: #3A3017;
+    --nav-hover-background-color:#FBFDFD;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p {
+    font-family: var(--paragraph-font);
+    color: var(--paragraph-color-on-white);
+}
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-white);
+}
+.sociallinks {
+    text-decoration: none;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    
+}
+.hero h1 {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(251, 253, 253,0.5); 
+    top: 30px;
+}
+.hero article {
+    position: relative;
+    width: 700px;
+    margin: 90px auto;
+    background-color: rgba(209, 98, 0,0.5);
+    height: 150px;
+    justify-items: center;
+}  
+.hero article img {
+    display: flex;
+    width: 200px;
+    height: auto;
+    float: right;
+    position: relative;
+    top: 10px;
+    right: 10px;
+}
+.hero article p {
+    color: var(--paragraph-color-on-color);
+    display: flex;
+    width: 400px ;
+    left: 50px;
+    position: relative;
+    top: 10px;
+}
+main section{
+    display: block;
+    margin-top:400px;
+    width: 700px;
+    padding: 0;   
+}
+
+nav {
+    font-family: var(--paragraph-font);
+}
